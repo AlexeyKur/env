@@ -1,6 +1,6 @@
 # Status badge
 
-[![Build status](https://ci.appveyor.com/api/projects/status/6bp113uodhfifjtu/branch/master?svg=true)](https://ci.appveyor.com/project/AlexeyKur/ahj-code/branch/master)
+[![Build status](https://ci.appveyor.com/api/projects/status/6bp113uodhfifjtu/branch/main?svg=true)](https://ci.appveyor.com/project/AlexeyKur/ahj-code/branch/master)
 
 # Webpack5
 
