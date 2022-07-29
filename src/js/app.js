@@ -1,9 +1,13 @@
-/* eslint-disable linebreak-style */
-// TODO: write code here
-
-// comment this to pass build
-
-// for demonstration purpose only
-export default function demo(value) {
-  return value;
+export default function colorHealth(person) {
+  let result;
+  if (person.health < 15) {
+    result = 'critical';
+  } else if (person.health < 50) {
+    result = 'wounded';
+  } else if (person.health >= 50) {
+    result = 'healthy';
+  }
+  return result;
 }
+
+colorHealth({ name: 'Маг', health: 90 });
